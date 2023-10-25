@@ -40,3 +40,5 @@ php console serve
 
 ## その他
 もしも、Chubbyを快適に利用したい場合は、[Chubbyのスケルトンプロジェクト](https://github.com/takemo101/chubby-skeleton)を使用できますので、ご興味があれば是非ご利用ください。
+
+> **注釈** *Chubbyは、開発中のパッケージです。今後、仕様が変更される可能性があります*
