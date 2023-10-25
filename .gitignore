@@ -1,0 +1,10 @@
+/vendor/
+/docker-compose.yml
+/node_modules/
+
+/storage/logs/*.log
+/storage/templates/*.php
+/storage/templates/*.lock
+/.env
+/memo.txt
+/Taskfile.yml

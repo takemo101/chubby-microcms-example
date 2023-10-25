@@ -1,0 +1,9 @@
+#!/usr/bin/env php
+<?php
+
+use Takemo101\Chubby\Console;
+
+require __DIR__ . '/vendor/autoload.php';
+
+// Chubbyでは、コンソールアプリケーションをサポートしています
+Console::createSimple()->run();

@@ -1,0 +1,22 @@
+<ul class="mx-auto mt-16 grid max-w-2xl grid-cols-1 gap-6 text-sm sm:mt-20 md:gap-y-10 lg:max-w-none">
+    <li n:foreach="$blogs as $blog" class="border border-gray-200 bg-white hover:opacity-60">
+        <a href="{route('blog.detail', ['id' => $blog->id])}" class="flex flex-row items-stretch p-8">
+            <div class="basis-1/4">
+                <img src="{isset($blog->eyecatch) ? $blog->eyecatch->url : '/assets/empty.jpeg'}" class="object-cover w-48 h-48 rounded-full">
+            </div>
+            <div class="flex items-center basis-3/4">
+                <div class="ml-8">
+                    <div class="mt-2 mb-4">
+                        {if $blog->category}
+                            <span class="p-1 mr-2 text-white bg-blue-800">{$blog->category?->name}</span>
+                        {/if}
+                        <span>{$blog->publishedAt|date:'Y.m.d'}</span>
+                    </div>
+                    <h3 class="text-xl font-semibold text-gray-900">
+                        {$blog->title}
+                    </h3>
+                </div>
+            </div>
+        </a>
+    </li>
+</ul>
