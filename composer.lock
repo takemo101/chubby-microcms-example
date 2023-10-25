@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "86af9213c279cf41dfbf1d4a5219d6ae",
+    "content-hash": "fa007d94cff0334370cd14f0a104199f",
     "packages": [
         {
             "name": "fig/http-message-util",
@@ -451,7 +451,7 @@
         },
         {
             "name": "illuminate/collections",
-            "version": "v10.28.0",
+            "version": "v10.29.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/collections.git",
@@ -506,7 +506,7 @@
         },
         {
             "name": "illuminate/conditionable",
-            "version": "v10.28.0",
+            "version": "v10.29.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/conditionable.git",
@@ -552,7 +552,7 @@
         },
         {
             "name": "illuminate/contracts",
-            "version": "v10.28.0",
+            "version": "v10.29.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/contracts.git",
@@ -600,7 +600,7 @@
         },
         {
             "name": "illuminate/macroable",
-            "version": "v10.28.0",
+            "version": "v10.29.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/macroable.git",
@@ -646,16 +646,16 @@
         },
         {
             "name": "laravel/serializable-closure",
-            "version": "v1.3.1",
+            "version": "v1.3.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/serializable-closure.git",
-                "reference": "e5a3057a5591e1cfe8183034b0203921abe2c902"
+                "reference": "076fe2cf128bd54b4341cdc6d49b95b34e101e4c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/serializable-closure/zipball/e5a3057a5591e1cfe8183034b0203921abe2c902",
-                "reference": "e5a3057a5591e1cfe8183034b0203921abe2c902",
+                "url": "https://api.github.com/repos/laravel/serializable-closure/zipball/076fe2cf128bd54b4341cdc6d49b95b34e101e4c",
+                "reference": "076fe2cf128bd54b4341cdc6d49b95b34e101e4c",
                 "shasum": ""
             },
             "require": {
@@ -702,7 +702,7 @@
                 "issues": "https://github.com/laravel/serializable-closure/issues",
                 "source": "https://github.com/laravel/serializable-closure"
             },
-            "time": "2023-07-14T13:56:28+00:00"
+            "time": "2023-10-17T13:38:16+00:00"
         },
         {
             "name": "latte/latte",
@@ -3075,16 +3075,16 @@
         },
         {
             "name": "takemo101/chubby",
-            "version": "v0.0.4",
+            "version": "v0.0.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/takemo101/chubby.git",
-                "reference": "4651233e6a4bfec6286158f40117746394681b73"
+                "reference": "f29765122addfcf1c08a20ff2cb58a3f409faa54"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/takemo101/chubby/zipball/4651233e6a4bfec6286158f40117746394681b73",
-                "reference": "4651233e6a4bfec6286158f40117746394681b73",
+                "url": "https://api.github.com/repos/takemo101/chubby/zipball/f29765122addfcf1c08a20ff2cb58a3f409faa54",
+                "reference": "f29765122addfcf1c08a20ff2cb58a3f409faa54",
                 "shasum": ""
             },
             "require": {
@@ -3104,6 +3104,7 @@
             },
             "require-dev": {
                 "laravel/pint": "^1.13",
+                "mockery/mockery": "^1.6",
                 "pestphp/pest": "^2.20",
                 "phpstan/phpstan": "^1.10",
                 "symfony/var-dumper": "^6.3"
@@ -3132,9 +3133,9 @@
             ],
             "support": {
                 "issues": "https://github.com/takemo101/chubby/issues",
-                "source": "https://github.com/takemo101/chubby/tree/v0.0.4"
+                "source": "https://github.com/takemo101/chubby/tree/v0.0.5"
             },
-            "time": "2023-10-24T12:29:36+00:00"
+            "time": "2023-10-25T06:05:48+00:00"
         },
         {
             "name": "vlucas/phpdotenv",

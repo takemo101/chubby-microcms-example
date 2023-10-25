@@ -27,7 +27,7 @@
     "guzzlehttp/guzzle": "^7.8",
     "latte/latte": "^3.0",
     "microcmsio/microcms-php-sdk": "^1.0",
-    "takemo101/chubby": "^0.0.4"
+    "takemo101/chubby": "^0.0.5"
   },
   "require-dev": {
     "symfony/var-dumper": "^6.3"
