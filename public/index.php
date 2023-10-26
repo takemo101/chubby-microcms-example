@@ -59,7 +59,7 @@ class LatteRenderer
      *
      * @param string $template
      * @param mixed[] $params
-     * @return string
+     * @return HtmlRenderer
      */
     public function template(
         string $template,
